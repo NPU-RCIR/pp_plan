@@ -18,8 +18,13 @@ A lightweight motion planning algorithm according to Fast_planner, no obstacle a
   source devel/setup.bash
   roslaunch pass_point_plan plan_pp.launch
 ```
-https://github.com/NPU-RCIR/pp_plan/blob/master/pp_plan/img/result.png
+
+<p align="center">
+  <img src="https://github.com/NPU-RCIR/pp_plan/blob/master/pp_plan/img/result.png" width = "420" height = "237"/>
+</p> -->
 ## 3. Change waypoints
 You can modify the number and coordinates of path points in the launch file to make the final optimized trajectory pass through these path points and meet the requirements of smoothness and dynamic feasibility.
 
-https://github.com/NPU-RCIR/pp_plan/blob/master/pp_plan/img/change_waypoints.png
+<p align="center">
+  <img src="https://github.com/NPU-RCIR/pp_plan/blob/master/pp_plan/img/change_waypoints.png" width = "420" height = "237"/>
+</p> -->
