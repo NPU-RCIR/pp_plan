@@ -1,0 +1,8 @@
+prefix=/home/yuhang/planning_hkust/Pass_point/src/cmake-build-debug/devel
+
+Name: traj_utils
+Description: Description of traj_utils
+Version: 0.0.0
+Cflags: -I/home/yuhang/planning_hkust/Pass_point/src/traj_utils/include
+Libs: -L${prefix}/lib -ltraj_utils
+Requires: bspline bspline_opt

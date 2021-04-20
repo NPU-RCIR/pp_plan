@@ -1,0 +1,8 @@
+prefix=/usr/local
+
+Name: pass_point_plan
+Description: Description of pass_point_plan
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lplan_manage
+Requires: bspline bspline_opt traj_utils message_runtime

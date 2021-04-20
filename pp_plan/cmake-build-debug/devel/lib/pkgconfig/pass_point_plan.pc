@@ -1,0 +1,8 @@
+prefix=/home/yuhang/planning_hkust/Pass_point/src/cmake-build-debug/devel
+
+Name: pass_point_plan
+Description: Description of pass_point_plan
+Version: 0.0.0
+Cflags: -I/home/yuhang/planning_hkust/Pass_point/src/cmake-build-debug/devel/include -I/home/yuhang/planning_hkust/Pass_point/src/pass_point_plan/include
+Libs: -L${prefix}/lib -lplan_manage
+Requires: bspline bspline_opt traj_utils message_runtime

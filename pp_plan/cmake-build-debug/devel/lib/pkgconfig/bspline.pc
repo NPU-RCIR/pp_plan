@@ -1,0 +1,8 @@
+prefix=/home/yuhang/planning_hkust/Pass_point/src/cmake-build-debug/devel
+
+Name: bspline
+Description: Description of bspline
+Version: 0.0.0
+Cflags: -I/home/yuhang/planning_hkust/Pass_point/src/bspline/include
+Libs: -L${prefix}/lib -lbspline
+Requires: 
